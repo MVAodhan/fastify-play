@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"@fastify/bearer-auth": "^9.0.0",
+		"@fastify/env": "^4.2.0",
+		"@fastify/multipart": "^7.6.0",
+		"@fastify/postgres": "^5.2.0",
+		"dotenv": "^16.0.3",
+		"fastify": "^4.17.0",
+		"pg": "^8.10.0"
+	},
+	"name": "fastify",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "node --watch index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
